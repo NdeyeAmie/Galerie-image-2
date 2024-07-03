@@ -1,71 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Galerie d'images</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-   <header class="header">
-    <nav class="nav">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js">
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
         <ul class="right">
-            <li class="logo">
-                   <a href="#"><img src="images/logo.png" alt=""></a>
-            </li>
-            <li><a href="#">Find designes</a></li>
-            <li><a href="#">Inspiration</a></li>
-            <li><a href="#">Coures</a></li>
-            <li><a href="#">Jobs</a></li>
-            <li><a href="#">Go Pro</a></li>
+          <li class="logo">
+            <a href="#"><img src="images/logo.png" alt="" /></a>
+          </li>
+          <li><a href="#">Find designes</a></li>
+          <li><a href="#">Inspiration</a></li>
+          <li><a href="#">Coures</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Go Pro</a></li>
         </ul>
         <ul class="left">
-            <li><a href="#"><input type="search" name="search" id="search" placeholder="Search..."></a></li>
-            <li><a class="login" href="#">Login</a></li>
-            <li class="sign"><a href="#">Sign up</a></li>
+          <li>
+            <a href="#"
+              ><input
+                type="search"
+                name="search"
+                id="search"
+                placeholder="Search..."
+            /></a>
+          </li>
+          <li><a class="login" href="#">Login</a></li>
+          <li class="sign"><a href="#">Sign up</a></li>
         </ul>
-    </nav>
-   </header> 
-   <section class="section-world">
-    <div class="container-world">
-        <div class="btn-world">
+      </nav>
+    </header>
+    <section class="section-world">
+      <div class="container-world">
+        <div class="heading-worl">
+          <div class="btn-world">
             <button>Over 3 million ready-to-work creatives!</button>
+          </div>
+          <h1>The world’s destination for design</h1>
+          <p>
+            Get inspired by the work of millions of top-rated designers &
+            agencies around the world.
+          </p>
+          <div class="btn">
+            <button>Get started</button>
+          </div>
         </div>
-        <h1>The world’s destination for design</h1>
-        <p>Get inspired by the work of millions of top-rated designers & agencies
-            around the world.</p>
-        <div class="btn">
-        <button>Get started</button>
-    </div>
 
-    <div class="container-grid">
-     <div class="grid-items">
-        <img src="images/1fb34610061a95a007ac5e7b1dc53138.webp" alt="">
-     </div>
-     <div class="grid-items">
-        <img src="images/1fb34610061a95a007ac5e7b1dc53138.webp" alt="">
-     </div>
-     <div class="grid-items">
-        <img src="images/3986915be548424a5d36657f2b034ead.webp" alt="">
-     </div>
-     <div class="grid-items">
-        <img src="images/4f02d72fe701b15b2168a4954332427f.webp" alt="">
-     </div>
-     <div class="grid-items">
-        <img src="images/1fb34610061a95a007ac5e7b1dc53138.webp" alt="">
-     </div>
-     <div class="grid-items">
-        <img src="images/1fb34610061a95a007ac5e7b1dc53138.webp" alt="">
-     </div>
-     <div class="grid-items">
-        <img src="images/1fb34610061a95a007ac5e7b1dc53138.webp" alt="">
-     </div>
-     <div class="grid-items">
-        <img src="images/1fb34610061a95a007ac5e7b1dc53138.webp" alt="">
-     </div>
+        <div class="grid">
+          <div class="container-grid">
+            <div class="grid-items" style="--position: 1">
+              <img
+                src="images/1fb34610061a95a007ac5e7b1dc53138.webp"
+                alt="image"
+              />
+              <div class="text-grid">
+                <h4 class="petit-titre">Victa Wille</h4>
+                <p>Digital Designer</p>
+                <div class="btn-grid">
+                  <button>Brand</button>
+                  <button>Design</button>
+                </div>
+              </div>
+            </div>
+            <div class="grid-items" style="--position: 2">
+              <img src="images/cd3266dde4f00a5d6a509c7375ddaecd.webp" alt="" />
+              <div class="text-grid">
+               <h4 class="petit-titre">Vladimir Gruev</h4>
+               <p>Digital Designer</p>
+               <div class="btn-grid">
+                 <button>Mobile</button>
+                 <button>UI</button>
+                 <button>Web</button>
+               </div>
+             </div>
+            </div>
+            <div class="grid-items" style="--position: 3">
+              <img src="images/4f02d72fe701b15b2168a4954332427f.webp" alt="" />
+              <div class="text-grid">
+               <h4 class="petit-titre">Chris Owens</h4>
+               <p>Creative Diretor</p>
+               <div class="btn-grid">
+                 <button>Mobile</button>
+                 <button>Ullistration</button>
+                 <button>Web</button>
+               </div>
+             </div>
+            </div>
+            <div class="grid-items" style="--position: 4">
+              <img src="images/9b22cd83bde1809976bec0722d1f8923.webp" alt="" />
+              <div class="text-grid">
+               <h4 class="petit-titre">Mercedes Bazan</h4>
+              <p>Creative Director</p>
+               <div class="btn-grid">
+                 <button>Mobile</button>
+                 <button>Ullistration</button>
+                 <button>UI</button>
+             </div>
+            </div>
+            </div>
+            <div class="grid-items" style="--position: 5">
+              <img src="images/3986915be548424a5d36657f2b034ead.webp" alt="" />
+              <div class="text-grid">
+               <h4 class="petit-titre">Elif Kamesogui</h4>
+               <p>Brand Designe</p>
+               <div class="btn-grid">
+                 <button>Brand</button>
+                 <button>Ullistrator</button>
+                 <button>Web</button>
+               </div>
+             </div>
+            </div>
+            <div class="grid-items" style="--position: 6">
+              <img src="images/daniele-buffa-3.webp" alt="" />
+              <div class="text-grid">
+               <h4 class="petit-titre">Halen Tran</h4>
+               <p >Ullistrator</p>
+               <div class="btn-grid">
+               <button>Brand</button>
+               <button>Ullistrator</button>
+               <button>Web</button>
+             </div>
+            </div>
+            </div>
+            <div class="grid-items" style="--position: 7">
+              <img src="images/mercedes-bazan.webp" alt="" />
+              <div class="text-grid">
+               <h4 class="petit-titre">Lilla Bardenova</h4>
+               <p> Ullistrator</p>
+               <div class="btn-grid">
+                 <button>Brand</button>
+                 <button>Ullistrator</button>
+                 <button>Web</button>
+               </div>
+             </div>
+            </div>
+            <div class="grid-items" style="--position: 8">
+              <img src="images/Vladimir_Gruev.webp" alt="" />
+              <div class="text-grid">
+               <h4 class="petit-titre">Mercedes Bazan</h4>
+               <p>Creative Director</p>
+               <div class="btn-grid">
+                 <button>Mobile</button>
+                 <button>Ullistration</button>
+                 <button>UI</button>
+             </div>
+              </div>
+            </div>
+            <div class="grid-items" style="--position: 9">
+              <img src="images/wt.webp" alt="" />
+              <div class="text-grid">
+               <h4 class="petit-titre">Elif Kamesogui</h4>
+               <p>Brand Designer</p>
+               <div class="btn-grid">
+                 <button>Brand</button>
+                 <button>Ullistrator</button>
+                 <button>Web</button>
+               </div>
+             </div>
+            </div>
+            <div class="grid-items" style="--position: 10">
+              <img src="images/3986915be548424a5d36657f2b034ead.webp" alt="" />
+              <div class="text-grid">
+               <h4 class="petit-titre">Chris Owens</h4>
+               <p>Creative Director</p>
+               <div class="btn-grid">
+                 <button>Mobile</button>
+                 <button>Ullistration</button>
+                 <button>UI</button>
+               </div>
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="grid-section">
+      <div class="container-section">
+        <div class="item-section">
+          <img src="images/1.jpg" alt="image 1">
+          <div class="text-image">
+            <h2>Awsmd</h2>
+            <button>TEAM</button>
+           <h3>23.k</h3>
+           <h4>43.k</h4>
+        </div>
+        </div>
+         <div class="item-section">
+          <img src="images/2.jpg" alt="image 2">
+          <div class="text-image">
+            <h2>Awsmd</h2>
+            <button>TEAM</button>
+           <h3>23.k</h3>
+           <h4>43.k</h4>
+        </div>
+        </div>
+        <div class="item-section">
+          <img src="images/3.jpg" alt="image 3">
+          <div class="text-image">
+            <h2>Awsmd</h2>
+            <button>TEAM</button>
+           <h3>23.k</h3>
+           <h4>43.k</h4>
+        </div>
+        </div>
+        <div class="item-section">
+          <img src="images/4.png" alt="image 4">
+          <div class="text-image">
+            <h2>Awsmd</h2>
+            <button>TEAM</button>
+           <h3>23.k</h3>
+           <h4>43.k</h4>
+        </div>
+        </div>
+        <div class="item-section">
+          <img src="images/5.png" alt="image 5">
+          <div class="text-image">
+            <h2>Awsmd</h2>
+            <button>TEAM</button>
+           <h3>23.k</h3>
+           <h4>43.k</h4>
+        </div>
+        </div>
+        <div class="item-section">
+          <img src="images/6.png" alt="image 6">
+          <div class="text-image">
+            <h2>Awsmd</h2>
+            <button>TEAM</button>
+           <h3>23.k</h3>
+           <h4>43.k</h4>
+        </div>
+        </div>
+        <div class="item-section">
+          <img src="images/7.jpg" alt="image 7">
+          <div class="text-image">
+            <h2>Awsmd</h2>
+            <button>TEAM</button>
+           <h3>23.k</h3>
+           <h4>43.k</h4>
+        </div>
+        </div>
+        <div class="item-section">
+          <img src="images/8.jpg" alt="image 8">
+          <div class="text-image">
+            <h2>Awsmd</h2>
+            <button>TEAM</button>
+           <h3>23.k</h3>
+           <h4>43.k</h4>
+        </div>
+        </div> 
+        <div class="item-section">
+          <img src="images/9.jpg" alt="image 9">
+          <div class="text-image">
+            <h2>Awsmd</h2>
+            <button>TEAM</button>
+           <h3>23.k</h3>
+           <h4>43.k</h4>
+        </div>
+        </div> 
+        <div class="item-section">
+          <img src="images/10.png" alt="image 10">
+          <div class="text-image">
+            <h2>Awsmd</h2>
+            <button>TEAM</button>
+           <h3>23.k</h3>
+           <h4>43.k</h4>
+        </div>
+        </div>
+        <div class="item-section">
+          <img src="images/11.jpg" alt="image 11">
+          <div class="text-image">
+            <h2>Awsmd</h2>
+            <button>TEAM</button>
+           <h3>23.k</h3>
+           <h4>43.k</h4>
+        </div>
+        </div>
+        <div class="item-section">
+          <img src="images/12.jpg" alt="image 12">
+          <div class="text-image">
+            <h2>Awsmd</h2>
+            <button>TEAM</button>
+           <h3>23.k</h3>
+           <h4>43.k</h4>
+        </div>
+        </div>
+      </div>
+    </section>
 
-    </div>
-    </div>
-   </section>
-</body>
+    <section class="footer">
+      <div class="heading-footer">
+        <h2>Find you next designer today </h2>
+      </div>
+    </section>
+  </body>
 </html>
